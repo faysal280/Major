@@ -7,17 +7,16 @@ const { spawn } = require("child_process");
 const readline = require("readline");
 
 const banner = `\x1b[33m
-███████╗ █████╗ ██╗   ██╗ █████╗ ███╗   ██╗
-██╔════╝██╔══██╗██║   ██║██╔══██╗████╗  ██║
-███████╗███████║██║   ██║███████║██╔██╗ ██║
-╚════██║██╔══██║╚██╗ ██╔╝██╔══██║██║╚██╗██║
-███████║██║  ██║ ╚████╔╝ ██║  ██║██║ ╚████║
-╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝
+
+ _____ _ __   ______    _    _
+|  ___/ \\ \ / / ___|  / \  | |
+| |_ / _ \\ V /\___ \ / _ \ | |
+|  _/ ___ \| |  ___) / ___ \| |___
+|_|/_/   \_\_| |____/_/   \_\_____|
                                                                                                   
-    Auto Claim Bot For Major - @savanop
-    Author  : Airdop script  : Thanks to @savan
-    Github  : https://github.com/Savanop121
-    Telegram: https://t.me/savanop121
+
+    Github  : https://github.com/faysal280
+    Telegram: https://t.me/eliteairdrop_official
 \x1b[0m`;
 
 class Major {
